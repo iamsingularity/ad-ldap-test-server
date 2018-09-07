@@ -19,7 +19,7 @@ The following examples filters canbe used to retrieve users and groups.
     UserFilter:               "(|(objectCategory=person)(objectClass=user)(objectClass=inetOrgPerson))",
 	GroupFilter:              "(|(cn=Accounting)(cn=IT))",
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+That's it!
 
 ### Support or Contact
 
