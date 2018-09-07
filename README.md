@@ -21,6 +21,10 @@ The following examples filters canbe used to retrieve users and groups.
 
 That's it!
 
+### GUI
+
+Need a GUI to browse the AD/LDAP server? Use [Apache Directory Studio ](https://directory.apache.org/studio/) to validate your connection.
+
 ### Support or Contact
 
 [Contact Us](https://documize.com/contact) and we’ll help you sort it out.
