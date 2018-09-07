@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Free Active Directory / LDAP Test Server
 
-You can use the [editor on GitHub](https://github.com/documize/ad-ldap-test-server/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+If you need a test server for Active Directory or LDAP testing and development, feel free to use the following parameters.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is hosted on Microsoft Azure inside a small VM.
 
-### Markdown
+The server is operated and maintained by [Documize](https://documize.com)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Connection Details
 
-```markdown
-Syntax highlighted code block
+Use the following LDAP connection details:
 
-# Header 1
-## Header 2
-### Header 3
+	ServerHost:               "documize-ad.eastus.cloudapp.azure.com"
+	ServerPort:               389
+ 	BaseDN:                   "DC=mycompany,DC=local"
+	BindDN:                   "CN=Mr Manager,CN=Users,DC=mycompany,DC=local"
+	BindPassword:             "Pass@word1!"
 
-- Bulleted
-- List
+The following examples filters canbe used to retrieve users and groups.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+    UserFilter:               "(|(objectCategory=person)(objectClass=user)(objectClass=inetOrgPerson))",
+	GroupFilter:              "(|(cn=Accounting)(cn=IT))",
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/documize/ad-ldap-test-server/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Contact Us](https://documize.com/contact) and we’ll help you sort it out.
