@@ -8,16 +8,16 @@ The server is operated and maintained by [Documize](https://documize.com)
 
 Use the following LDAP connection details:
 
-	ServerHost:               "documize-ad.eastus.cloudapp.azure.com"
-	ServerPort:               389
- 	BaseDN:                   "DC=mycompany,DC=local"
-	BindDN:                   "CN=Mr Manager,CN=Users,DC=mycompany,DC=local"
-	BindPassword:             "Pass@word1!"
+    ServerHost:               "documize-ad.eastus.cloudapp.azure.com"
+    ServerPort:               389
+    BaseDN:                   "DC=mycompany,DC=local"
+    BindDN:                   "CN=Mr Manager,CN=Users,DC=mycompany,DC=local"
+    BindPassword:             "Pass@word1!"
 
 The following examples filters canbe used to retrieve users and groups.
 
     UserFilter:               "(|(objectCategory=person)(objectClass=user)(objectClass=inetOrgPerson))",
-	GroupFilter:              "(|(cn=Accounting)(cn=IT))",
+    GroupFilter:              "(|(cn=Accounting)(cn=IT))",
 
 That's it!
 
