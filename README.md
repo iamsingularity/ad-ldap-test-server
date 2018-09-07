@@ -1,7 +1,5 @@
 ## Free Active Directory / LDAP Test Server
 
-If you need a test server for Active Directory or LDAP testing and development, feel free to use the following parameters.
-
 This is hosted on Microsoft Azure inside a small VM.
 
 The server is operated and maintained by [Documize](https://documize.com)
