@@ -1,4 +1,4 @@
-## Free Active Directory / LDAP Test Server
+## How to test against Active Directory and LDAP
 
 This is hosted on Microsoft Azure inside a small VM.
 
